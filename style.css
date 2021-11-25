@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: linear-gradient(to left, rgb(0, 132, 255), rgb(0, 16, 85));
+}
+
+.section {
+  display: flex;
+
+  position: relative;
+  color: white;
+
+  background-image: linear-gradient(-45deg, rgb(24, 0, 68), rgb(0, 140, 255));
+  box-shadow: -10px 8px 15px rgba(255, 255, 255, 0.3);
+
+  width: 50%;
+  height: 300px;
+  border-radius: 5px;
+  margin-top: 12%;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.section h1 {
+  display: block;
+  position: absolute;
+
+  top: 40px;
+
+  width: 300px;
+  margin-top: 0;
+}
+
+.section h1 span {
+  font-size: 14px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h2 {
+  font-size: 16px;
+}
+
+.container input {
+  width: 50px;
+  height: 20px;
+  margin: 0;
+  padding-left: 5px;
+  border-radius: 3px;
+  border: none;
+}
+
+.container input:focus,
+.container input:hover {
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+.container #fahrenheit {
+  padding-left: 5px;
+  color: black;
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.container p {
+  display: inline;
+}
