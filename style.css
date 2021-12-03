@@ -88,7 +88,7 @@ body {
 
 .container input[type='number'] {
   width: 70px;
-  height: 20px;
+  height: 25px;
   padding-left: 5px;
   border-radius: 3px;
   border: none;
@@ -109,7 +109,7 @@ body {
   padding-top: 2px;
   padding-right: 5px;
   width: 70px;
-  height: 20px;
+  height: 25px;
   background-color: white;
 
   padding-left: 5px;
