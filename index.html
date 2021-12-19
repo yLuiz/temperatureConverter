@@ -13,21 +13,16 @@
       <h1>Conversor de Temperatura <span>versão 1.0</span></h1>
 
       <div class="container">
-        <h2>Celsius para Fahrenheit</h2>
+        <h2>Celsius para Fahrenheit e Kelvin</h2>
         <label>
           <input type="number" value="0" id="celsius" />
           <p>°C</p>
         </label>
-        <!-- <input
-          class="btn"
-          type="submit"
-          value="Converter"
-          onclick="converter()"
-        /> -->
         <p>to</p>
         <label>
-          <input type="number" value="0" id="fahrenheit" />
-          <p>°F</p>
+          <input type="number" value="0" id="temperature" />
+          <input class="btn active-btn" id="btn-f" type="button" value="°F" />
+          <input class="btn" id="btn-k" type="button" value="K" />
         </label>
       </div>
     </section>
