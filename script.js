@@ -3,7 +3,7 @@ function converterCelsiusToFahrenheit() {
   let celsius = Number(celsius_element.value)
 
   let valorEmFahrenheit = (celsius * 9) / 5 + 32
-  document.getElementById('temperature').value = valorEmFahrenheit
+  document.getElementById('temperature').value = valorEmFahrenheit.toFixed(2)
 }
 
 function converterFarenheitToCelsius() {
