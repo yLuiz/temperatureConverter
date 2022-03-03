@@ -21,19 +21,6 @@ body {
   background-position: center;
 }
 
-.termometros {
-  display: flex;
-  width: 100%;
-  padding: 45px;
-  position: absolute;
-  justify-content: space-between;
-}
-
-.termometro {
-  min-width: 60px;
-  max-width: 200px;
-}
-
 .section {
   display: flex;
 
@@ -194,11 +181,6 @@ body {
 }
 
 @media (max-width: 768px) {
-
-  .termometro {
-    width: 150px;
-  }
-
   .section {
     width: 90vw;
     height: 70vh;
@@ -214,14 +196,6 @@ body {
 
 @media (max-width: 620px) {
 
-  .termometros {
-    padding: 50px;
-  }
-
-  .termometro {
-    max-width: 100px;
-  }
-
   .section h1 {
     width: 210px;
   }
@@ -234,12 +208,6 @@ body {
 
   .container h2 {
     font-size: 14px;
-  }
-}
-
-@media(max-width: 520px) {
-  .termometro {
-    display: none;
   }
 }
 
